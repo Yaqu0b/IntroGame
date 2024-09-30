@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     void FixedUpdate() {
-        Vector3 movement = new Vector3 (moveValue.x, 0.0f, moveValue.y) ;
+        Vector3 movement = new Vector3(moveValue.x, 0.0f, moveValue.y);
 
         GetComponent<Rigidbody>().AddForce(movement * speed * Time.fixedDeltaTime) ;
     }

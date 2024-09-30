@@ -12,6 +12,9 @@ public class CameraController : MonoBehaviour
     }
 
     void LateUpdate () {
-    transform.position = player.transform.position + offset;
+        transform.position = player.transform.position + offset;
+
+        // Lock the camera's rotation to a specific value:
+        transform.rotation = Quaternion.Euler(45, 0, 0);
     }
 }
