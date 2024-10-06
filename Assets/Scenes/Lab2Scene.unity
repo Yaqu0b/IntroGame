@@ -1618,6 +1618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 152058933}
   distanceText: {fileID: 2125721126}
+  positionText: {fileID: 996663235}
+  velocityText: {fileID: 139238919}
 --- !u!4 &1094015109
 Transform:
   m_ObjectHideFlags: 0
